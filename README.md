@@ -6,6 +6,7 @@ This intends to serve as a replication package for anyone who would like to test
 
 - join_data.py is ment to pick one random from each of the profiles I had and merge them into a single data file. 
 - exploratory_data_analysis.py provides a brief analysis of the data by providing a resume statistical table of the data, a correlation heatmap, histograms for the features and pairplots for inputs vs outputs
+- k_fold_validation.py manually tests each model you put on it for 10 folds and givces back a summary of the metrics
 - tunner_X.py tests which configuration is best for each of the outputs and provides a comparison between these.
 - fitting.py trains and fits the previously made models on tunner_X
 - testing.py predicts new data with the preciusly fitted models 
